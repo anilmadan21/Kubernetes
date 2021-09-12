@@ -1,0 +1,4 @@
+Create secrets from docker config file
+
+kubectl create secret generic crashsec --from-file=.dockerconfigjson=secrets --type=kubernetes.io/dockerconfigjson -n prod
+
